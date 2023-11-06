@@ -1,0 +1,57 @@
+body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        
+.container {
+            text-align: center;
+            background-color: rgb(255, 255, 255);
+            box-shadow: -1px 3px 25px -2px rgba(0,0,0,0.16);
+            padding: 70px 30px 70px 30px;
+            width: 50%;
+            border-radius: 20px;
+            font-family: 'Ubuntu', sans-serif;
+            margin: 100px;
+        }
+#age {
+            font-family: 'Ubuntu', sans-serif;
+            padding: 10px;
+            width: 40%;
+            margin-top: 15px;
+            color:#575757;
+        }
+
+h1 {
+            font-family: 'ubuntu';
+            font-size: 37px;
+            color: blueviolet;
+        }
+
+#btn {
+            padding: 10px 10px 10px 10px;
+            border-radius: 10px;
+            cursor: pointer;
+            background-color: blueviolet;
+            color: white;
+        }
+
+#btn:hover{
+            background-color: rgb(212, 75, 178) ;
+
+        }
+
+label {
+            font-size:16px;
+            margin-top: 0;
+            margin-bottom: 50px;
+            color:#575757
+        }
+
+#resultAge {
+            margin-top: 50px;
+            font-size: 18px;
+            color: rgb(212, 75, 178);
+        }
